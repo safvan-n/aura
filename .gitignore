@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Environment variables (keep your keys safe)
+.env
+.env.local
+.env.*.local
+
+# Firebase caches & logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+
+# Editor & OS files
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/
